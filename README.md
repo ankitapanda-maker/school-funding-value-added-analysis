@@ -17,9 +17,6 @@ outcomes than funding level does. The model's low R² (~0.10) is itself a
 finding: most of the variation between schools comes from unmeasured factors 
 — leadership, teaching quality — which the value-added residuals surface.
 
-##chart
-![Funding vs. Attainment by Deprivation Level](output/funding_vs_attainment.png)
-
 ## Pipeline
 1. **Generate/Load** — synthetic dataset modelled on real DfE funding/outcomes patterns
 2. **Clean** — dedupe, numpy z-score outlier detection, median/mode imputation
